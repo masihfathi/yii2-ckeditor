@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require masihfathi/yii2-ckeditor "*"
+composer require masihfathi/yii2-ckeditor "1.4"
 ```
 
 or add
 
 ```
-"masihfathi/yii2-ckeditor": "*"
+"masihfathi/yii2-ckeditor": "1.4"
 ```
 
 to the require section of your `composer.json` file.
