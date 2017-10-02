@@ -38,7 +38,7 @@ CKEditor::widget([
     ]
 ]);
 
-//или c ActiveForm
+//ActiveForm
 
 echo $form->field($post, 'content')->widget(CKEditor::className(),[
     'editorOptions' => [
