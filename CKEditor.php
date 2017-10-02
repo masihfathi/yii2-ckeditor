@@ -50,7 +50,7 @@ class CKEditor extends InputWidget{
             ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
             ['name' => 'colors'],
             ['name' => 'links', 'groups' => ['links', 'insert']],
-            ['name' => 'paragraph', 'groups' => ['BidiLtr','BidiRtl']],                        
+            ['name' => 'paragraph', 'groups' => ['bidi']],                        
             ['name' => 'others','groups' => ['others', 'about']],
         ];
         $options['removeButtons'] = 'Subscript,Superscript,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe';
@@ -68,7 +68,7 @@ class CKEditor extends InputWidget{
             ['name' => 'clipboard', 'groups' => ['mode','undo', 'selection', 'clipboard','doctools']],
             ['name' => 'editing', 'groups' => ['tools', 'about']],
             '/',
-            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align','BidiLtr','BidiRtl']],
+            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align','bidi']],
             ['name' => 'insert'],
             '/',
             ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
@@ -96,7 +96,7 @@ class CKEditor extends InputWidget{
             ['name' => 'clipboard', 'groups' => ['mode','undo', 'selection', 'clipboard', 'doctools']],
             ['name' => 'editing', 'groups' => ['find', 'spellchecker', 'tools', 'about']],
             '/',
-            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align','BidiLtr','BidiRtl']],
+            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align','bidi' ]],
             ['name' => 'forms'],
             '/',
             ['name' => 'styles'],

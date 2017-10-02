@@ -2,8 +2,9 @@
     "name": "masihfathi/yii2-ckeditor",
     "description": "yii2 ckeditor ",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
+    "keywords": ["yii2","extension","ckeditor"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Masih Fathi",

@@ -4,7 +4,7 @@ yii2 ckeditor
 
 Installation
 ------------
-
+update ckeditor of MihailDev/yii2-ckeditor package and add bidi plugin
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 Either run
