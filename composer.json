@@ -1,0 +1,21 @@
+{
+    "name": "masihfathi/yii2-ckeditor",
+    "description": "yii2 ckeditor ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masih Fathi",
+            "email": "masihfathi@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mihaildev\\ckeditor\\": ""
+        }
+    }
+}
