@@ -28,4 +28,22 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \mihaildev\ckeditor\AutoloadExample::widget(); ?>```
+use mihaildev\ckeditor\CKEditor;
+use yii\helpers\Html;
+
+CKEditor::widget([
+    'editorOptions' => [
+        'preset' => 'full', //basic, standard, full 
+        'inline' => false, //false
+    ]
+]);
+
+//или c ActiveForm
+
+echo $form->field($post, 'content')->widget(CKEditor::className(),[
+    'editorOptions' => [
+        'preset' => 'full', //basic, standard, full
+        'inline' => false, //false
+    ],
+]);
+```
