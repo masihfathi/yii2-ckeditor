@@ -1,8 +1,4 @@
 <?php
-/**
- * Date: 17.01.14
- * Time: 1:18
- */
 
 namespace mihaildev\ckeditor;
 
@@ -54,6 +50,7 @@ class CKEditor extends InputWidget{
             ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
             ['name' => 'colors'],
             ['name' => 'links', 'groups' => ['links', 'insert']],
+            ['name' => 'paragraph', 'groups' => ['BidiLtr','BidiRtl']],                        
             ['name' => 'others','groups' => ['others', 'about']],
         ];
         $options['removeButtons'] = 'Subscript,Superscript,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe';
@@ -71,7 +68,7 @@ class CKEditor extends InputWidget{
             ['name' => 'clipboard', 'groups' => ['mode','undo', 'selection', 'clipboard','doctools']],
             ['name' => 'editing', 'groups' => ['tools', 'about']],
             '/',
-            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align']],
+            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align','BidiLtr','BidiRtl']],
             ['name' => 'insert'],
             '/',
             ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
@@ -99,7 +96,7 @@ class CKEditor extends InputWidget{
             ['name' => 'clipboard', 'groups' => ['mode','undo', 'selection', 'clipboard', 'doctools']],
             ['name' => 'editing', 'groups' => ['find', 'spellchecker', 'tools', 'about']],
             '/',
-            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align']],
+            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align','BidiLtr','BidiRtl']],
             ['name' => 'forms'],
             '/',
             ['name' => 'styles'],
